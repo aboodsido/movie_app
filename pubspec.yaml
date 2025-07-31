@@ -22,6 +22,10 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
+  app_settings:
+    path: features/settings/app_settings
+  get_it:
+  injectable:
   flutter:
     sdk: flutter
 
@@ -33,6 +37,8 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^5.0.0
+  build_runner:
+  injectable_generator:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
